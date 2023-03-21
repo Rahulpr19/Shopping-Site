@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Style.css">
+    <title>Login Page</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg text-white">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <h3 class="text-white">SHOP YET</h3>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link text-white" href="aboutus.html">About Us</a>
+                    <a class="nav-link text-white" href="contactup.html">Contact Us</a>
+                </div>
+            </div>
+            <div class="d-flex justify-content-end">
+                <a class="nav-link ps-3" href="cart.html"><i class="fa fa-shopping-bag"></i> Cart</a>
+                <a class="nav-link ps-3" href="login.html">Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="text-center text-white">Login Page</h1>
+            <h4 class="text-center text-white"><b>(Login To Continue)</b></h4><br><br><br>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-3"></div>
+        <div class="col-lg-6">
+            <form>
+                <!-------------------Form page-------------------------------->
+                <div class="form-group text-white">
+                    <label class="fs-5">Email</label>
+                    <input type="text" class="form-control" aria-describedby="emailHelp" placeholder="Enter email" name="email">
+                </div><br>
+                <div class="form-group text-white">
+                    <label class="fs-5">Password</label>
+                    <input type="password" class="form-control" placeholder="Password" name="password">
+                </div><br>
+                <div class="form-group text-white">
+                    <label class="form-check-label">Forgot Password ? &nbsp;<a href="#" class="btn text-white">Here</a></label>
+                </div><br>
+                <button class="btn btn-primary">Login</button><br><br>
+
+                <div class="form-group">
+                    <label class="form-check-label text-white">Not yet a member? <a href="signin.html" style="text-decoration: none;">
+                        <span class="signup">Sign In</span></a>
+                    </label>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
